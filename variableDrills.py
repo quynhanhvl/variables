@@ -3,7 +3,6 @@ For this assignment you should read the task, then below the task do what it ask
 EXAMPLE TASK:
 '''
 #EX) Make a variable called name and assign it to your name. And print the variable.
-from builtins import True
 name = "Michael"
 print(name)
 
@@ -30,7 +29,7 @@ print(var2)
 
 #3) Make a variable called var3 that is set to var2. And print the variable.
 
-var3 = "var2"
+var3 = var2
 
 print(var3)
 
@@ -38,7 +37,7 @@ print(var3)
 
 x = 24
 
-print(24)
+print(x)
 
 #5) Make a variable called y that is set to 100. And print the variable.
 
@@ -147,10 +146,19 @@ listInt = [1, 2, 3, 4, 5]
 
 #22) Print the 3rd item in listInt, using indexes.
 
-print(listInt[3])
+print(listInt[2])
 
 #23) Make a list called listString of 5 string variables.
+ 
+listString = ["1", "2", "3", "4", "5"]
 
 #24) Print the 4th item in listString, using indexes.
 
+print(listString[4])
+
 #25) Make a list called listBoolean of 5 boolean variables. Then print each item in the list, using indexes.
+
+listBoolean = True, True, True, False, False
+
+print(listBoolean[0:5])
+
