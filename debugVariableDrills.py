@@ -24,13 +24,17 @@ START HERE
 #Broken:
 #name == "your name"
 #print(name)
-#Correct: the equal signs
+#Correct: 
+name = "quynh-anh"
+print(name)
 
 #2)
 #Broken:
 #x = "your name
 #print(x)
-#Correct: add quotation
+#Correct: 
+x = "quynh-anh"
+print(x)
 
 #3)
 #Broken:
@@ -38,19 +42,25 @@ START HERE
 #print(aya)
 #PROBLEM: The variable is created correctly, but it won't print.
 #TIP: The variable isn't the problem
-#Correct: in line 38 correct 'aya' to 'yay'
+#Correct: 
+yay = "yay"
+print(yay)
 
 #4)
 #Broken:
 #y == 4
 #print(y)
-#Correct: delete extra equal sign
+#Correct:
+y = 4
+print(y)
 
 #5)
 #Broken:
 #m == 5
 #print(m)
-#Correct: delete extra equal sign
+#Correct:
+m = 5
+print(m)
 
 '''
 For the next section, there will be a variable create correctly. Your job will
